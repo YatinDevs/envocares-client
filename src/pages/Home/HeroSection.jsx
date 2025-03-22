@@ -11,7 +11,7 @@ const HeroSection = () => {
     const fetchHeroSection = async () => {
       try {
         const response = await axios.get(
-          "http://127.0.0.1:8000/api/hero-sections"
+          "https://envocare.demovoting.com/api/hero-sections"
         );
         console.log(response);
         setHeroContent(response.data);
@@ -53,7 +53,7 @@ const HeroSection = () => {
         transition={{ duration: 1.5 }}
         className="absolute inset-0 w-full h-full bg-cover bg-center before:content-[''] before:absolute before:inset-0 before:bg-black/60"
         style={{
-          backgroundImage: `url(http://127.0.0.1:8000/storage/${image_url})`,
+          backgroundImage: `url(https://envocare.demovoting.com/storage/${image_url})`,
         }}
       ></motion.div>
 

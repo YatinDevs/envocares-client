@@ -84,7 +84,7 @@ function Carousel() {
                 className="w-[200px] h-[200px] shrink-0 bg-gray-100 rounded-2xl overflow-hidden shadow-lg"
               >
                 <img
-                  src={`http://127.0.0.1:8000/storage/${client.image}`}
+                  src={`https://envocare.demovoting.com/storage/${client.image}`}
                   alt={client.name}
                   className="w-full h-full object-cover rounded-2xl"
                 />
