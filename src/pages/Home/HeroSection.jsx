@@ -53,7 +53,7 @@ const HeroSection = () => {
         transition={{ duration: 1.5 }}
         className="absolute inset-0 w-full h-full bg-cover bg-center before:content-[''] before:absolute before:inset-0 before:bg-black/60"
         style={{
-          backgroundImage: `url(https://envocare.demovoting.com/storage/${image_url})`,
+          backgroundImage: `url(https://envocare.demovoting.com/storage/app/public/hero/${image_url})`,
         }}
       ></motion.div>
 
