@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "lobDisplayText": "Urban Infrastructure",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+    "pTl": "Smart & Sustainable Urban Development",
+    "pTx": "Designing future-ready cities with green infrastructure and efficient urban planning."
+  },
+  {
+    "id": 2,
+    "lobDisplayText": "Water & Wastewater Management",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1502920514313-52581002a659",
+    "pTl": "Zero Liquid Discharge (ZLD) & Smart Water Solutions",
+    "pTx": "Optimizing water resources through advanced treatment, recycling, and reuse strategies."
+  },
+  {
+    "id": 3,
+    "lobDisplayText": "Environmental Compliance",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1559511260-47d9dc6677c5",
+    "pTl": "Environmental Impact Assessment (EIA) & Regulatory Approvals",
+    "pTx": "Helping industries comply with environmental laws, pollution control, and sustainability norms."
+  },
+  {
+    "id": 4,
+    "lobDisplayText": "Green Building Certification",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1506045412240-22980140a405",
+    "pTl": "GRIHA & IGBC Green Building Certifications",
+    "pTx": "Guiding projects to achieve energy-efficient, eco-friendly, and sustainable building standards."
+  },
+  {
+    "id": 5,
+    "lobDisplayText": "Waste Management Solutions",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1606402177845-d089083d9a47",
+    "pTl": "Smart Waste Management for a Cleaner Tomorrow",
+    "pTx": "Innovative strategies for solid waste, industrial waste, and hazardous waste management."
+  },
+  {
+    "id": 6,
+    "lobDisplayText": "Fire & Safety Audits",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1575143421545-b3d03c54a1a4",
+    "pTl": "Comprehensive Fire & Industrial Safety Assessments",
+    "pTx": "Ensuring workplace and infrastructure safety with expert fire audits and risk assessments."
+  },
+  {
+    "id": 7,
+    "lobDisplayText": "Rainwater Harvesting",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1587614382346-4ec326e58a70",
+    "pTl": "Water Conservation & Recharge Solutions",
+    "pTx": "Designing efficient rainwater harvesting systems to tackle water scarcity challenges."
+  },
+  {
+    "id": 8,
+    "lobDisplayText": "Solar & Renewable Energy",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276",
+    "pTl": "Solar Power Integration in Infrastructure",
+    "pTx": "Helping businesses transition to clean, renewable energy sources for a sustainable future."
+  },
+  {
+    "id": 9,
+    "lobDisplayText": "AI & IoT in Environmental Engineering",
+    "newHeroOfferCardUrl": "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e",
+    "pTl": "Tech-Driven Sustainability Solutions",
+    "pTx": "Leveraging AI & IoT for smart monitoring and optimization of environmental processes."
+  }
+]
