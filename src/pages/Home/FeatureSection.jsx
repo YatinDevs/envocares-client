@@ -11,7 +11,6 @@ import { RiBuilding2Line } from "react-icons/ri";
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import { motion } from "framer-motion";
 
-
 const features = [
   {
     icon: <MdOutlineHighQuality />,

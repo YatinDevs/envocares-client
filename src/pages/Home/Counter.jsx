@@ -17,7 +17,7 @@ const Counter = () => {
         <div className="bgSvgTrain1"></div>
         <div className="bgSvgTrain2"></div>
         <div className="bgSvgHotel"></div>
-        {/* Animated Counters */}
+
         <div className="flex flex-wrap justify-around text-center mb-12 gap-8">
           {[
             {

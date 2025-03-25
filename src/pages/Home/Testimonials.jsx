@@ -14,7 +14,7 @@ const Testimonials = () => {
     const fetchTestimonials = async () => {
       try {
         const response = await axios.get(
-          "http://127.0.0.1:8000/api/testimonials"
+          "https://envocare.demovoting.com/api/testimonials"
         );
         console.log(response);
         setReviews(response.data);
@@ -52,7 +52,7 @@ const Testimonials = () => {
               className="w-full bg-gray-100 rounded-lg text-center"
             >
               <ReviewCard
-                imgURL={`http://127.0.0.1:8000/storage/${review.image_url}`} // Prepend base URL
+                imgURL={`https://envocare.demovoting.com/storage/app/public/${review.image_url}`} // Prepend base URL
                 customerName={review.customer_name}
                 rating={review.rating}
                 feedback={review.feedback}

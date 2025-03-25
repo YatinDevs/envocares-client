@@ -24,7 +24,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-16 px-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
-        {/* Logo and About Section */}
         <div>
           <img src="/logo.png" alt="Company Logo" className="mb-6 w-36" />
           <h3 className="text-lg font-semibold mb-4 text-blue-400">
@@ -39,7 +38,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Products Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-400">PRODUCTS</h3>
           <ul className="space-y-2 text-gray-300 text-sm">
@@ -51,7 +49,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Services Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-400">SERVICES</h3>
           <ul className="space-y-2 text-gray-300 text-sm">
@@ -63,7 +60,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Locations Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-400">
             OUR LOCATIONS
@@ -78,7 +74,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-around items-center gap-2">
-        {/* Social Media Icons */}
         <div className="mt-10 flex justify-center space-x-6">
           {socialIcons.map((Icon, index) => (
             <motion.div
@@ -91,7 +86,6 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Contact Information */}
         <div className="mt-10 text-center flex flex-col justify-center items-start text-gray-300">
           <p>
             <IoLocationOutline size={20} className="inline mr-2" /> 123 Greenway
@@ -107,7 +101,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright and Links */}
       <div className="mt-8 text-center text-gray-500 text-sm border-t border-gray-700 pt-4">
         <p>
           © 2025 All Rights Reserved by Rich System Solution.{" "}
