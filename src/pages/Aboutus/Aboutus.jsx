@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-
 import { FaIndustry } from "react-icons/fa";
 import { GiRecycle } from "react-icons/gi";
 import { FaWater } from "react-icons/fa";
@@ -109,14 +108,14 @@ function Aboutus() {
             solutions.
           </p>
 
-          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-8">
+          <div className="mt-10 flex flex-wrap justify-center ite gap-6 px-4 sm:px-8">
             {aboutData.expertise.map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                className="bg-white text-blue-700 p-6 rounded-xl shadow-lg"
+                className="bg-white w-[500px] text-blue-700 p-6 rounded-xl shadow-lg"
               >
                 <h3 className="text-md sm:text-xl font-semibold">
                   {item.title}
